@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:gravity="center|top"
+    tools:context=".InsertContactActivity">
+
+    <ImageView
+        android:src="@drawable/ic_baseline_account_circle_24"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:contentDescription="@string/todo" />
+    <EditText
+        android:id="@+id/update_txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:autofillHints="name"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/update_txtPhone"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone"
+        android:autofillHints="phone" />
+    <EditText
+        android:id="@+id/update_txtEmail"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:autofillHints="emailAddress" />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:id="@+id/update_btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update"
+            style="?android:attr/button" />
+
+        <Button
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:id="@+id/update_btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:textColor="#ff0000"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>

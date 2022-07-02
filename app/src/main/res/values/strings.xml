@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Kotlin Database SQLite CRUD</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="mahdi">Mahdi</string>
+    <string name="_0912000000">0912000000</string>
+    <string name="bagheri_gmail_com">bagheri@gmail.com</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete Contact</string>
+    <string name="todo">TODO</string>
+    <string name="insert">Insert</string>
+
+</resources>
